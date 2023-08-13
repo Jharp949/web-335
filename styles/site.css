@@ -1,0 +1,93 @@
+/**
+  Title: site.css
+  Author: James Harper
+  Date: 5/27/2023
+  Description: Web 330 - Week 1 - Assignment 1.3
+*/
+
+/**
+  References the <div> with an id="container". Sets the margin top to 50px, right 100px,
+  and left 100px.
+*/
+#container {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#icon-mode {
+  cursor: pointer;
+}
+
+#icon-text {
+  padding-left: 10px;
+}
+
+.pull-right {
+  float: right;
+}
+/**
+    Styles added per the instructions in the Web 330 HTML, CSS, and JavaScript Requirements document;
+    Exhibit D.
+ */
+.assign-container {
+  padding: 10px;
+}
+
+#assign-header {
+  font-size: 1.3em;
+}
+
+.assign-content {
+  width: 600px;
+  margin: 3% auto 0;
+}
+
+.assign-results-text {
+  text-align: center;
+  font-size: 28px;
+}
+
+.app-header {
+  text-align: center;
+  font-weight: 400;
+  border: none;
+  color: inherit;
+  background-color: inherit;
+}
+/**
+Assigns properties to any element with the card-content class. Adjust the top and bottom padding to 2px and the
+right and left padding to 16px.
+*/
+.card-content {
+  padding: 2px 16px;
+}
+/**
+Assigns properties to any element with the card class while hovering over the element with the cursor.
+Shadows on the right and bottom with color black.
+*/
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+/**
+Assigns properties to any element with the form class. Assign the the display as a grid with the columns set to
+auto. Elements can then be assigned to a space on the page based on the grid column property.
+*/
+.form {
+  display: inline-grid;
+  grid-template-columns: auto;
+}
+
+.form-field {
+  padding: 20px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+#link-container {
+  width: 600px;
+  margin: auto;
+  padding-top: 10px;
+}
