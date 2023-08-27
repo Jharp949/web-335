@@ -1,0 +1,27 @@
+[
+  {
+    "isbn_id": "95560192346",
+    "publisher": [
+      {
+        "name": "Yellow-Blue Books",
+        "code": "78p622",
+        "address": "543 N. Laird St.",
+        "author": [
+          {
+            "first_name": "John",
+            "last_name": "McKenzie",
+            "phone": "777-8888",
+            "email": "jmck991@site.com",
+            "book": [
+              {
+                "isbn": "948200018532",
+                "name": "The Call of Morning",
+                "price": "$23.65"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
