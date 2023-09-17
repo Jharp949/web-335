@@ -25,5 +25,5 @@ print(users)
 """ call the find_one function to display a user document by employeeId """
 print(db.users.find_one({"employeeId": "1011"}))
 
-""" call the find_one function to display a user document by employeeId """
+""" call the find_one function to display a user document by lastName """
 print(db.users.find_one({"lastName": "Mozart"}))
